@@ -268,7 +268,7 @@ void PlayState::Logic()
 	{
 		mCurrentPiece.mPosY += mCurrentPiece.mVelY;
 	}
-	else if (mCurrentPiece.mVelX == 0)
+	else if (mCurrentPiece.mVelX == 0 && mCurrentPiece.mVelY == 0)
 	{
 		mFirstKeyPress = true;
 	}
