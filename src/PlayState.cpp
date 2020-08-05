@@ -264,8 +264,6 @@ void PlayState::Logic()
 	mGame->PlayMusic("audio/background_music.wav");
 	mSpeedCounter++;
 
-	printf("speed: %i\t lines: %i\n", mSpeed, mTotalLinesCleared);
-
 	if (mHardDrop)
 	{
 		mCurrentPiece.mPosY += mCurrentPiece.mVelY;

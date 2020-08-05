@@ -198,14 +198,9 @@ void Game::Run()
 {
 	if (mInitialised)
 	{
-		int counted = 0;
-		Timer timer;
-		timer.Start();
 		Timer fpsTimer;
 		while (mStateID != STATE_QUIT)
 		{
-			++counted;
-			//printf("FPS: %f\n", counted / (timer.GetTicks() / 1000.0f));
 			fpsTimer.Start();
 
 			mCurrentState->HandleEvents();
