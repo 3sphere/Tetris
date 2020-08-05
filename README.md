@@ -8,7 +8,7 @@ This project is a recreation of the game Tetris.
 ![playing](https://github.com/3sphere/Tetris/blob/master/screenshot_playing.png)  
 ![gameover](https://github.com/3sphere/Tetris/blob/master/screenshot_gameover.png)  
 
-Video: https://youtu.be/JDk-uufJvto 
+Video: https://www.youtube.com/watch?v=a6KQVS7v8oc 
 
 ### Libraries used
 **SDL 2.0** for windowing and rendering  
