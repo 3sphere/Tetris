@@ -1,8 +1,5 @@
 # Tetris
-Tetris clone made with SDL2
-
-### About
-This project is a recreation of the game Tetris. 
+Tetris clone written in C++
 
 ![title](https://github.com/3sphere/Tetris/blob/master/screenshot_title.png)  
 ![playing](https://github.com/3sphere/Tetris/blob/master/screenshot_playing.png)  
